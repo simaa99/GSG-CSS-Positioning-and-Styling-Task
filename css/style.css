@@ -7,7 +7,7 @@
 .container {
   margin: 0 auto;
   width: 70rem;
-  max-width: 100%;
+  max-width: 98%;
 }
 .margin-section {
   margin-top: 1.5rem;
@@ -70,6 +70,7 @@ nav > ul > li > a:hover {
   text-align: center;
   position: relative;
 }
+
 h2 {
   text-align: left;
   color: #413734;
@@ -180,4 +181,48 @@ button:hover {
   font-weight: 400;
   display: block;
   margin-bottom: 0.5rem;
+}
+
+/** Styling Contact Section**/
+.contact > p {
+  font-size: 1rem;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+form {
+  margin-top: 1rem;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+input,
+textarea {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 0.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+input:focus,
+textarea:focus,
+input:hover,
+textarea:hover {
+  border: 1px solid pink;
+  outline: none;
+}
+
+.submit {
+  background-color: #fff;
+  font-size: 1rem;
+  border: 1px solid pink;
 }
