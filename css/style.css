@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+.container {
+  margin: 0 auto;
+  width: 70rem;
+  max-width: 100%;
+}
+.margin-section {
+  margin-top: 1.5rem;
+}
+
+/** Styling Header Section  **/
+header {
+  width: 100%;
+  text-align: center;
+  background-color: #3b3b3b;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+h1 {
+  color: #f9fdfe;
+  font-size: 2.5rem;
+  line-height: 100%;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+header > p {
+  color: #b6bbbc;
+  font-size: 1.2rem;
+  line-height: 100%;
+  margin-bottom: 1rem;
+}
+
+nav > ul {
+  list-style: none;
+}
+
+nav > ul > li {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 1rem;
+}
+
+nav > ul > li > a {
+  color: #fff7e0;
+  text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+  color: yellow;
+}
+
+/** Styling About Section  **/
+.box {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #cccccc1f;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 1px 1px #cccccc4d;
+}
+.about-section {
+  text-align: center;
+  position: relative;
+}
+h2 {
+  text-align: left;
+  color: #413734;
+  font-size: 1.5rem;
+  line-height: 100%;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+header > p {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 100%;
+  font-weight: 400;
+  text-align: center;
+}
+.about-section > img {
+  border-radius: 50%;
+  width: 8rem;
+  height: 8rem;
+  margin: 2rem auto;
+  object-fit: cover;
+}
+
+.about-item {
+  background-color: #f8b3c1;
+  border-radius: 1rem;
+  padding: 1rem;
+  position: absolute;
+  bottom: -3rem;
+  left: 2rem;
+  width: 20rem;
+  max-width: 70%;
+  padding-bottom: 4rem;
+}
+.about-item > span {
+  font-size: 1.3rem;
+  line-height: 100%;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.about-item > p {
+  font-size: 1rem;
+  line-height: 100%;
+  font-weight: 400;
+  text-align: center;
+}
+
+/** Styling Skills Section**/
+.skills {
+  background-image: url(../images/skills-image.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  margin-top: 4.5rem;
+}
+
+.skill-items-view {
+  background-color: #b6bbbc88;
+  margin-top: 2rem;
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+}
+
+button {
+  background-color: pink;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+button:hover {
+  background-color: rgb(226, 171, 180);
+  transform: translateY(-0.2rem);
+}
